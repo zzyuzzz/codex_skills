@@ -1,0 +1,5 @@
+interface:
+  display_name: "Decision"
+  short_description: "Structured decision-making with trade-off analysis"
+  brand_color: "#16A34A"
+  default_prompt: "Use $decision to help me compare my options and make a choice."

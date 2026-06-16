@@ -1,0 +1,5 @@
+interface:
+  display_name: "Clarity Consulting"
+  short_description: "McKinsey-style MECE structured thinking for messy problems"
+  brand_color: "#2563EB"
+  default_prompt: "Use $clarity-consulting to help me break down this problem with Pyramid Principle and MECE logic."

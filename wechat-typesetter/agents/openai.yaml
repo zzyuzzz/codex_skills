@@ -1,0 +1,3 @@
+display_name: 微信排版助手
+short_description: 微信公众号文章HTML排版，将Markdown或纯文本转换为符合公众号编辑器规范的富文本HTML
+default_prompt: 请将以下内容排版为微信公众号文章

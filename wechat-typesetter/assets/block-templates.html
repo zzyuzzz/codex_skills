@@ -1,0 +1,68 @@
+<!-- 正文段落 -->
+<section style="box-sizing: border-box; visibility: visible; padding: 0 30px; margin-bottom: 25px;">
+    <p style="text-indent: 2em; white-space: normal; margin: 0px; padding: 0px; box-sizing: border-box; visibility: visible; color: #2b2b2b; line-height: 2; text-align: justify; font-size: 16px; font-family: 'Microsoft YaHei', sans-serif;">
+        {{TEXT}}
+    </p>
+</section>
+
+<!-- 章节标题（竖线装饰） -->
+<section style="box-sizing: border-box; visibility: visible; padding: 0 30px; margin-bottom: 20px;">
+    <section style="border-left: 4px solid {{PRIMARY_COLOR}}; padding-left: 15px; margin: 0; box-sizing: border-box; visibility: visible;">
+        <p style="margin: 0; padding: 0; color: {{PRIMARY_COLOR}}; font-size: 20px; font-weight: bold; line-height: 1.5; font-family: 'Microsoft YaHei', sans-serif; box-sizing: border-box; visibility: visible;">
+            {{HEADING}}
+        </p>
+    </section>
+</section>
+
+<!-- 引用框 -->
+<section style="box-sizing: border-box; visibility: visible; padding: 0 30px; margin-bottom: 25px;">
+    <section style="text-align: left; justify-content: flex-start; display: flex; flex-flow: row; margin: 0px; width: 100%; background-color: #f8f9ff; padding: 20px 25px; border-left: 4px solid {{PRIMARY_COLOR}}; border-radius: 4px; box-sizing: border-box;">
+        <section style="text-align: justify; width: 100%; box-sizing: border-box;">
+            <p style="text-indent: 0; color: #3a3a3a; line-height: 2; margin: 0; padding: 0;">
+                {{QUOTE_TEXT}}
+            </p>
+        </section>
+    </section>
+</section>
+
+<!-- 居中图片 -->
+<section style="text-align: center; margin: 15px 30px; line-height: 0; box-sizing: border-box;">
+    <section style="max-width: 100%; vertical-align: middle; display: inline-block; line-height: 0; width: 100%; box-sizing: border-box;">
+        <img src="{{IMAGE_URL}}" style="vertical-align: middle; max-width: 100%; width: 100%; box-sizing: border-box;" alt="{{ALT_TEXT}}">
+    </section>
+</section>
+
+<!-- 分隔线 -->
+<section style="margin: 20px 30px; height: 1px; background-color: #e5e5e5; box-sizing: border-box; visibility: visible;"></section>
+
+<!-- 编号列表项 -->
+<section style="box-sizing: border-box; visibility: visible; padding: 0 30px; margin-bottom: 10px;">
+    <section style="display: flex; flex-flow: row; align-items: flex-start; box-sizing: border-box;">
+        <section style="flex-shrink: 0; width: 28px; height: 28px; line-height: 28px; text-align: center; border-radius: 50%; background-color: {{PRIMARY_COLOR}}; color: #ffffff; font-size: 14px; font-weight: bold; margin-right: 12px; box-sizing: border-box;">
+            {{NUM}}
+        </section>
+        <section style="flex: 1; box-sizing: border-box;">
+            <p style="margin: 0; padding: 3px 0 0 0; color: #2b2b2b; line-height: 2; text-align: justify; font-size: 16px; box-sizing: border-box;">
+                {{LIST_TEXT}}
+            </p>
+        </section>
+    </section>
+</section>
+
+<!-- 二级标题（带底色） -->
+<section style="box-sizing: border-box; visibility: visible; padding: 0 30px; margin-bottom: 20px;">
+    <section style="background-color: {{PRIMARY_LIGHT}}; padding: 12px 20px; border-radius: 4px; box-sizing: border-box;">
+        <p style="margin: 0; padding: 0; color: {{PRIMARY_COLOR}}; font-size: 18px; font-weight: bold; line-height: 1.5; font-family: 'Microsoft YaHei', sans-serif; box-sizing: border-box;">
+            {{SUBHEADING}}
+        </p>
+    </section>
+</section>
+
+<!-- 强调文字块 -->
+<section style="box-sizing: border-box; visibility: visible; padding: 0 30px; margin-bottom: 25px;">
+    <section style="background: linear-gradient(135deg, {{PRIMARY_LIGHT}} 0%, #ffffff 100%); padding: 20px 25px; border-radius: 8px; box-sizing: border-box;">
+        <p style="text-indent: 0; color: {{PRIMARY_COLOR}}; line-height: 2; margin: 0; padding: 0; font-weight: bold;">
+            {{HIGHLIGHT_TEXT}}
+        </p>
+    </section>
+</section>

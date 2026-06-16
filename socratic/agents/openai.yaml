@@ -1,0 +1,5 @@
+interface:
+  display_name: "Socratic"
+  short_description: "Question-driven clarity for vague or confused thinking"
+  brand_color: "#9333EA"
+  default_prompt: "Use $socratic to help me think through this by asking me the right questions."

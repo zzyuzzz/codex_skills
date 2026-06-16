@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Development Specialists"
+  short_description: "Role-based game dev design guidance."
+  default_prompt: "Use -development-specialists to design a gameplay system, level, narrative beat, audio plan, or technical art pipeline."

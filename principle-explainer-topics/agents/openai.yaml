@@ -1,0 +1,4 @@
+interface:
+  display_name: "原理解释型选题"
+  short_description: "为科技与经济内容创作者筛选值得讲的原理型选题。"
+  default_prompt: "Use $principle-explainer-topics to propose principle-driven topic ideas from technology, economics, or research papers."

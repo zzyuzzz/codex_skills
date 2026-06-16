@@ -1,0 +1,5 @@
+interface:
+  display_name: "Insight Synthesizer"
+  short_description: "Distill analysis into the one keystone variable that matters"
+  brand_color: "#DC2626"
+  default_prompt: "Use $insight-synthesizer to cut through the noise and find the key insight."
